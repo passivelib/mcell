@@ -10,7 +10,7 @@ To address this issue, EM simulators are often used to model the missing passive
 Make Cell (mcell) is a tool that automates the synthesis of on-chip passive components, generating models that are customized to the required geometry and frequency range for any process node. MCELL supports the following components:
 - Spiral inductor (inductor-spiral)
 - Symmetric inductor (inductor-symmetric)
-- 1:1 transformer (transformer1o1): the secondary is placed in the metal layer directly below the primary
+- 1:1 transformer (transformer1o1): the secondary is placed in the metal layer directly below the primary to maximize the coupling coefficient
 - 1:2 transformer (transformer1o2): the secondary is placed in the metal layer directly below the primary
 - 2:1 transformer (transformer2o1): the secondary is placed in the metal layer directly below the primary
 - 2:2 transformer (transformer2o2): the secondary is placed in the metal layer directly below the primary
