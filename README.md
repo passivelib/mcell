@@ -62,7 +62,7 @@ MCELL can performe the following tasks:
 - Use EMX to more accurately model the selected candidates, conducting a narrower geometry sweep if needed, and then choose the optimal component.
 
 ## Cadence Virtuoso Interface
-MCELL has dedicated Cadence Virtuoso Interface. It can be started from Layout Editor and resulting cell is directly drown in it.
+MCELL has dedicated Cadence Virtuoso Interface. Full design flow is supported directly from within Cadence Virtuoso.
 
 ###  **Your input:**
 <img src="/mcell/img/tr1o1sw.png" width="300" height="auto">
