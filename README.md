@@ -29,10 +29,21 @@ MCELL can performe the following tasks:
   ```
   mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry
   ```
-  Output is folder gdsFile populated with drc clear gds files
+  Output is folder gdsFile populated with drc clear gds files.
   ```
   gdsFile
-  ``` 
+  ```
+- Generate drc clean set of gds files for a given component, and prepare EMX simulation
+
+  Example:
+  ```
+  mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --generate-em
+  ```
+  The output consists of the following:
+  - A `gdsFile` folder containing DRC-clean GDS files
+  - A `yFile` folder where simulation results (Y-parameters) will be saved
+  - A script, `runEmx.sh`, which needs to be executed to start the simulation
+    
 - Generate hast henry input files for a given gds set
 
   Example:
