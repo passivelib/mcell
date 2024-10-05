@@ -45,8 +45,8 @@ MCELL can performe the following tasks:
     
 - Generate FastHenry input files for a given component
 
-In addition to EMX, MCELL supports FastHenry, which can extract inductance and resistance up to two orders of magnitude faster than a full-wave EM solver.  
-Example:
+  In addition to EMX, MCELL supports FastHenry, which can extract inductance and resistance up to two orders of magnitude faster than a full-wave EM solver.  
+  Example:
   ```
   mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --fast-henry
   ```
