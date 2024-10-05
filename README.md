@@ -23,8 +23,16 @@ These components can be designed with either rectangular or octagonal geometries
 
 ## How it works 
 MCELL can performe the following tasks:
-- Generate drc clean set of gds files
-- Generate hast henry input files for a given gds set 
+- Generate drc clean set of gds files for a given component
+  Example:
+  ```
+  mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry
+  ```
+- Generate hast henry input files for a given gds set
+  Example:
+  ```
+  mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --fast-henry
+  ```
 
 Synthesis can be done in two ways:
 
