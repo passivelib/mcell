@@ -18,6 +18,10 @@ Make Cell (mcell) is a tool that automates the synthesis of on-chip passive comp
 
 These components can be designed with either rectangular or octagonal geometries and can include an optional patterned ground shield. For symmetric components (all except the spiral inductor), a DC feed can be integrated at the center of symmetry.
 
+MCELL can performe the following tasks:
+- Generate drc clean set of gds files
+- Generate hast henry input files for a given gds set 
+
 Synthesis can be done in two ways:
 
 ## **1. Generate parameterized spice model**
