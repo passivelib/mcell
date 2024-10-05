@@ -18,6 +18,18 @@ MCELL supports following components:
 - transformer-spiral
 
 Components can have rectangular or octagonal geometry, and can be with or without patterned ground shield.
+From symmetric components (all except inductor-spiral) DC feed can be included in center of symmetri.
+
+Make Cell (mcell) is a tool that automates the synthesis of on-chip passive components, generating models that are customized to the required geometry and frequency range for any process node. MCELL supports the following components:
+- Spiral inductor
+- Symmetric inductor
+- 1:1 transformer
+- 1:2 transformer
+- 2:1 transformer
+- 2:2 transformer
+- Spiral transformer
+
+These components can be designed with either rectangular or octagonal geometries and can include an optional patterned ground shield. For symmetric components (all except the spiral inductor), a DC feed can be integrated at the center of symmetry.
 
 Synthesis can be done in two ways:
 
