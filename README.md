@@ -50,8 +50,12 @@ MCELL can performe the following tasks:
   ```
   mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --fast-henry
   ```
-
-Synthesis can be done in two ways:
+  The output consists of the following:
+  - A `fastHenryFile` folder containing FastHenry input files
+  - A `zFile` folder where simulation results (Z-parameters) will be saved
+  - A script, `runFastHenry.sh`, which needs to be executed to start the simulation
+ 
+  To start the simulation for all FastHenry input files in the `fastHenryFile` folder, execute the script by running `source runFastHenry.sh`. All simulation results  (Z-parameters), will be saved in the `zFile` folder.
 
 ## **1. Generate parameterized spice model**
 
