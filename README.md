@@ -41,7 +41,7 @@ MCELL can performe the following tasks:
   - A `yFile` folder where simulation results (Y-parameters) will be saved
   - A script, `runEmx.sh`, which needs to be executed to start the simulation
 
-  Simulation of all gds files in folder `gdsFile` can be started with executing script `source runEmx.sh`, and all simulation results (Y-parameters) will be saved in folder `yFile`.
+  To start the simulation for all GDS files in the `gdsFile` folder, execute the script by running `source runEmx.sh`. All simulation results  (Y-parameters), will be saved in the `yFile` folder.
     
 - Generate hast henry input files for a given a given component
 
