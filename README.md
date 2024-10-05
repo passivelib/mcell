@@ -5,9 +5,7 @@ Silicon foundries generally offer a limited set of models for passive components
 
 To address this issue, EM simulators are often used to model the missing passive components. However, running design iterations and optimizations with an EM simulator in the loop is a slow and laborious process, leading to tape-out delays and increased development costs.
 
- ![](/mcell/img/all2-1024x609.png)
-
-Make Cell (mcell) is a tool that automates the synthesis of on-chip passive components, generating models that are customized to the required geometry and frequency range for any process node. 
+**Make Cell (MCELL) is a novel tool that provides the automatic synthesis of on-chip passive components, generating models that are customized to the required geometry and frequency range for any process node. MCELL enables synthesising components with optimal area and performance for a given application, while significantlly accelerating the desing process.**
 
 ## Supported components
 MCELL supports the following components:
@@ -20,6 +18,8 @@ MCELL supports the following components:
 - Spiral transformer (transformer-spiral): the primary and secondary are placed on the same metal layer, supporting an arbitrary number of windings on both sides
 
 These components can be designed with either rectangular or octagonal geometries and can include an optional patterned ground shield. For symmetric components (all except the spiral inductor), a DC feed can be integrated at the center of symmetry.
+
+ ![](/mcell/img/all2-1024x609.png)
 
 ## How it works 
 MCELL can performe the following tasks:
