@@ -57,36 +57,8 @@ MCELL can performe the following tasks:
  
   To start the simulation for all FastHenry input files in the `fastHenryFile` folder, execute the script by running `source runFastHenry.sh`. All simulation results  (Z-parameters), will be saved in the `zFile` folder.
 
-## **1. Generate parameterized spice model**
-
-###  **Your input:**
-
-```
-mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --generate-spice-model
-```
-
-- Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
-
-###  **MCELL output:**
-
-- DRC clean set of gds files
-- Two scripts runEmx.sh and runModelgen.sh
-
-###   **User to do:**
-
-```
-source runEmx.sh
-source runModelgen.sh
-```
-
-- Run script runEmx.sh to simulate all generated gds files for the provided component using Cadence EMX EM solver
-- Run script runModelgen.sh to create a scalable model for the required component in the given geometry and frequency range using Cadence Modelgen tool
-
-###  **Result:**
-
-- Result is parameterized spice model (plIndSymRect.scs)
-
-## **2. Sweep geometry**
+## Cadence Virtuoso Interface
+MCELL has dedicated Cadence Virtuoso Interface. It can be started from Layout Editor and resulting cell is directly drown in it.
 
 ###  **Your input:**
 <img src="/mcell/img/tr1o1sw.png" width="300" height="auto">
