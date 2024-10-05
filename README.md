@@ -1,7 +1,7 @@
 
 # Make Cell (mcell): On-Chip Passive Components Synthesis
 
-Silicon foundries generally offer a limited set of models for passive components in their PDKs. Transformers, despite their importance in single-ended to differential signal conversion and matching network design, are often excluded, with no models provided in the PDK. While models for inductors are typically available, they are usually constrained to a narrow frequency range, up to around 20 GHz—insufficient for designers working in the millimeter-wave (MW) frequency range.
+Silicon foundries generally offer a limited set of models for passive components in their PDKs. Transformers, despite their importance in single-ended to differential signal conversion and matching network design, are often excluded, with no models provided in the PDK. While models for inductors are typically available, they are usually constrained to a narrow frequency range, up to around 20 GHz insufficient for designers working in the millimeter-wave (MW) frequency range.
 
 To address this issue, EM simulators are often used to model the missing passive components. However, running design iterations and optimizations with an EM simulator in the loop is a slow and laborious process, leading to tape-out delays and increased development costs.
 
