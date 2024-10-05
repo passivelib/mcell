@@ -57,6 +57,10 @@ MCELL can performe the following tasks:
  
   To start the simulation for all FastHenry input files in the `fastHenryFile` folder, execute the script by running `source runFastHenry.sh`. All simulation results  (Z-parameters), will be saved in the `zFile` folder.
 
+## Desigh flow
+- Perform a geometry sweep and simulate using FastHenry. FastHenry can model thousands of components in just a few minutes. Based on the extracted parameters (L, Q, k), the user can identify several potential candidates for the desired component.
+- Use EMX to more accurately model the selected candidates, conducting a narrower geometry sweep if needed, and then choose the optimal component.
+
 ## Cadence Virtuoso Interface
 MCELL has dedicated Cadence Virtuoso Interface. It can be started from Layout Editor and resulting cell is directly drown in it.
 
