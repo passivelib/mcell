@@ -1,13 +1,13 @@
 
 # On-Chip Passive Components Synthesis
 
-Silicon foundries provide a limited set of models for passive components in their PDKs. Even though transformers are very valuable for single-ended to differential signal conversion and vice versa, as well as for matching network design, they are mostly completely omitted and models for those components are not shipped within PDK. With inductors, the situation is a bit different, models are usually provided, but only in a limited frequency range (up to 20 GHz). That is rarely sufficient for designers working on products in the MW frequency range.
+Silicon foundries generally offer a limited set of models for passive components in their PDKs. Transformers, despite their importance in single-ended to differential signal conversion and matching network design, are often excluded, with no models provided in the PDK. While models for inductors are typically available, they are usually constrained to a narrow frequency range, up to around 20 GHz—insufficient for designers working in the millimeter-wave (MW) frequency range.
 
-In order to solve this problem, an EM simulator needs to be used to model missing passive components. However, design iterations and optimization with an EM simulator in the loop are very slow and tedious, leading to tape-out delays and increased development cost.
+To address this issue, EM simulators are often used to model the missing passive components. However, running design iterations and optimizations with an EM simulator in the loop is a slow and laborious process, leading to tape-out delays and increased development costs.
 
  ![](/mcell/img/all2-1024x609.png)
 
-Make Cell (mcell) is a tool that automatize synthesis process of on-chip passive components in the required geometry and frequency range for any process node.
+Make Cell (mcell) is a tool that automates the synthesis of on-chip passive components, providing models tailored to the required geometry and frequency range for any process node.
 
 Synthesis can be done in two ways:
 
