@@ -11,10 +11,10 @@ Make Cell (mcell) is a tool that automates the synthesis of on-chip passive comp
 - Spiral inductor (inductor-spiral): common mode inductor with arbitrary number of windings
 - Symmetric inductor (inductor-symmetric): differential inductor with arbitrary number of windings
 - 1:1 transformer (transformer1o1): the secondary is placed in the metal layer directly below the primary to maximize the coupling coefficient
-- 1:2 transformer (transformer1o2): the secondary is placed in the metal layer directly below the primary
-- 2:1 transformer (transformer2o1): the secondary is placed in the metal layer directly below the primary
-- 2:2 transformer (transformer2o2): the secondary is placed in the metal layer directly below the primary
-- Spiral transformer (transformer-spiral): the primary and secondary are placed on the same metal layer, supporting an arbitrary number of windings on both sides.
+- 1:2 transformer (transformer1o2): the secondary is placed in the metal layer directly below the primary to maximize the coupling coefficient
+- 2:1 transformer (transformer2o1): the secondary is placed in the metal layer directly below the primary to maximize the coupling coefficient
+- 2:2 transformer (transformer2o2): the secondary is placed in the metal layer directly below the primary to maximize the coupling coefficient
+- Spiral transformer (transformer-spiral): the primary and secondary are placed on the same metal layer, supporting an arbitrary number of windings on both sides
 
 These components can be designed with either rectangular or octagonal geometries and can include an optional patterned ground shield. For symmetric components (all except the spiral inductor), a DC feed can be integrated at the center of symmetry.
 
