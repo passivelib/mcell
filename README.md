@@ -64,7 +64,7 @@ MCELL can performe the following tasks:
 ## Cadence Virtuoso Interface
 MCELL features a dedicated interface for Cadence Virtuoso, enabling a seamless design flow entirely within the Cadence Virtuoso environment.
 
-###  **Your input:**
+### Your input:
 <img src="/mcell/img/tr1o1sw.png" width="300" height="auto">
 
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
@@ -75,7 +75,7 @@ MCELL features a dedicated interface for Cadence Virtuoso, enabling a seamless d
 - Sweep format is min:max:step
 - In the section Sweep two option are available EMX (SweepEMX) or FastHenry (SweepFastH) to sweep geometry
 
-###  **Sweep using FastHenry:**
+### Sweep using FastHenry:
 
  <img src="/mcell/img/trSweepFh.png" width="500" height="auto">
 
@@ -86,7 +86,7 @@ MCELL features a dedicated interface for Cadence Virtuoso, enabling a seamless d
 - Format for filtering is min:max
 - Example: if we want to see only transformers with primary in range from 1nH to 1.1nH we should use 1e-9:1.1e-9 for Lp in the Filter section
 
-###  **Sweep using EMX:**
+### Sweep using EMX:
 
 <img src="/mcell/img/trSweepEmx.png" width="500" height="auto">
 
