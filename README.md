@@ -16,6 +16,7 @@ MCELL supports following components:
 - transformer2o1
 - transformer2o2
 - transformer-spiral
+Components can have rectangular or octagonal geometry, and can be with or without patterned ground shield.
 
 Synthesis can be done in two ways:
 
