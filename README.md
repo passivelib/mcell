@@ -43,9 +43,10 @@ MCELL can performe the following tasks:
 
   To start the simulation for all GDS files in the `gdsFile` folder, execute the script by running `source runEmx.sh`. All simulation results  (Y-parameters), will be saved in the `yFile` folder.
     
-- Generate hast henry input files for a given a given component
+- Generate FastHenry input files for a given component
 
-  Example:
+In addition to EMX, MCELL supports FastHenry, which can extract inductance and resistance up to two orders of magnitude faster than a full-wave EM solver.  
+Example:
   ```
   mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --fast-henry
   ```
