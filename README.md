@@ -8,9 +8,14 @@ To address this issue, EM simulators are often used to model the missing passive
  ![](/mcell/img/all2-1024x609.png)
 
 Make Cell (mcell) is a tool that automates the synthesis of on-chip passive components, providing models tailored to the required geometry and frequency range for any process node.
-MCELL supports following geometries:
-- inductor-spiral: spiral inductor
-- inductor-symmetric: symmetric inductor
+MCELL supports following components:
+- inductor-spiral
+- inductor-symmetric
+- transformer1o1
+- transformer1o2
+- transformer2o1
+- transformer2o2
+- transformer-spiral
 
 Synthesis can be done in two ways:
 
